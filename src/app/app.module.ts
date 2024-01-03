@@ -6,7 +6,6 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { Ejercicio2PageModule } from './ejercicio2/ejercicio2.module';
 
 @NgModule({

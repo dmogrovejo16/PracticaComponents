@@ -8,7 +8,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'ejercicio3',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {

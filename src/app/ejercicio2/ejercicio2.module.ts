@@ -7,18 +7,18 @@ import { IonicModule } from '@ionic/angular';
 import { Ejercicio2PageRoutingModule } from './ejercicio2-routing.module';
 
 import { Ejercicio2Page } from './ejercicio2.page';
-import { NavBarComponent } from '../nav-bar/nav-bar.component';
+
+import { SharedComponentsModule } from '../shared-components/shared-components.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    Ejercicio2PageRoutingModule
+    Ejercicio2PageRoutingModule,
+    SharedComponentsModule
   ],
-  declarations: [Ejercicio2Page, NavBarComponent],
-  exports: [
-    NavBarComponent,
-  ]
+  declarations: [Ejercicio2Page],
+
 })
 export class Ejercicio2PageModule {}

@@ -7,7 +7,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class NavBarComponent  {
   @Input() title: string ="";
-  @Input() title2: string ="";
 
   constructor() { }
 
