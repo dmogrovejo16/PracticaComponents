@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Ejercicio 3</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Array Colores</ion-label>
+  
+      <app-color-list [color]="color" *ngFor="let color of colores, let i = index">
+
+      </app-color-list>
+
+    </ion-item>
+  </ion-list>
+ 
+</ion-content>

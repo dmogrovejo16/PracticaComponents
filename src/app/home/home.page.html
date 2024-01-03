@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Ejercicios componentes
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,24 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-title size="large"></ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+ <app-user-card   userName="Santa Claus"
+ description="Este es Santa cLaus, tambien llamado papa Noel, el simbolo mas representavio de navidad desde tiempo inmemorables"
+ image="https://s1.eestatic.com/2022/11/29/imprescindibles/722187927_229087216_1706x960.jpg">
+
+ </app-user-card>
+
+ <app-user-card   userName="El Grinch"
+ description="Este es El Grinch, igualmente un simbolo muy importante de la navidad, alñmenos en el ambito de las peliculas. Es verde y algo amargado"
+ image="https://play-lh.googleusercontent.com/proxy/0ABuo6T1WeRlI826liY7hy_OnaYNfXVVUIF5Ypa6pghuEU_cezJKuw7s2xtFmsrgmDeKiwleCzhrqpEeTUH_GVTjymwy2wAEAGaxj9uEAL6NHL3-uoY05lqN=s3840-w3840-h2160">
+
+ </app-user-card>
+
+
+ <ion-button routerLink="/ejercicio2">
+  Siguiente ejercicio ->
+ </ion-button>
 </ion-content>
